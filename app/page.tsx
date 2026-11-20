@@ -81,6 +81,14 @@ export default function Home() {
               <p className="word-label">Kde nás najdete</p>
               <h2 className="section-title" id="visit-title">Krkonošská 14</h2>
             </div>
+            <figure className="location-map">
+              <a className="map-link" href={directionsUrl} aria-label="Otevřít Banditos Barber Shop na Mapách Google">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/vrchlabi-map.webp" width="2400" height="920" loading="lazy" decoding="async" alt="" />
+                <span className="map-pin" aria-hidden="true"><span>Banditos</span></span>
+              </a>
+              <figcaption><a href="https://www.openstreetmap.org/copyright" lang="en">© OpenStreetMap contributors</a></figcaption>
+            </figure>
             <div className="contact-grid">
               <div>
                 <h3 className="word-label">Adresa</h3>
